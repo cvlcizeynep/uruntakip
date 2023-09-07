@@ -1,0 +1,14 @@
+﻿@model Category
+
+<form asp-controller="Product" asp-action="Create" method="post>
+
+<div class="mb-3">
+    <label asp-for="Id" class="form-label">Id</label>
+    <input type="text" class="form-control" asp-for="CategoryName">
+</div>
+<div class="mb-3">
+    <label asp-for="CategoryName" class="form-label">Category Name</label>
+    <textarea class="form-control"></textarea>
+</div> 
+
+</form>
